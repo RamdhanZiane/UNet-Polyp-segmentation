@@ -1,2 +1,22 @@
 report/
 AGENTS.md
+tmp/
+.vscode/
+.venv/
+ideas_to_explore.md
+
+# Local data and model artifacts
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Keep small experiment records; exclude generated prediction arrays
+results/**/predictions/
