@@ -1,6 +1,7 @@
 # Initial dependency list; versions TODO after Colab environment validation.
 # This is not a reproducibility lockfile yet.
 torch
+torchvision
 numpy
 Pillow
 scikit-learn
